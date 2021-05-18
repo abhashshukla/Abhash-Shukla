@@ -1,3 +1,4 @@
+using System;
 class CombSort
 {
     static int GetNextGap(int gap)
