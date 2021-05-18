@@ -10,7 +10,7 @@ namespace SortingExample
             int temp;  
             int numLength = number.Length;  
   
-            //sorting an array  
+      
             for (int i = 1; (i <= (numLength - 1)) && flag; i++)  
             {  
                 flag = false;  
@@ -26,7 +26,7 @@ namespace SortingExample
                 }  
             }  
   
-            //Sorted array  
+         
             foreach (int num in number)  
             {  
                 Console.Write("\t {0}",num);  
